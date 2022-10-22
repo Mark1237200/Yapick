@@ -1,0 +1,25 @@
+{
+  "store": [
+    {
+      "data": {
+        "store_id": 1,
+        "store_phone": 12345678912,
+        "store_number": 37127,
+        "store_status": "open",
+        "store_name": "맛집",
+        "store_content": "맛집입니다",
+        "store_image": null,
+        "store_type": "korean",
+        "store_time": "24hr",
+        "store_waittime": "15분",
+        "store_address": "강남",
+        "store_payment": "현금",
+        "store_tag": "맛집",
+        "total_review": 20,
+        "total_grade": 5,
+        "total_comment": 10,
+        "total_menu": 10
+      }
+    }
+  ]
+}
