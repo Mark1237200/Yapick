@@ -21,5 +21,20 @@
         "totalMenu": 10
       }
     }
+  ],
+  "menus": [
+    {
+      "storeId": 1,
+      "storeMenu": [
+        {
+          "menuId": 1,
+          "name": "수박",
+          "price": 2000,
+          "image": null,
+          "content": "여름수박"
+        }
+      ],
+      "total_menu": 20
+    }
   ]
 }
