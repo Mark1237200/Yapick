@@ -41,7 +41,7 @@ function FoodDetail() {
     storeTag,
     totalMenu,
     totalReview,
-  } = data.data.data;
+  } = data.data[0];
 
   const { FOODTRUCK_IMG } = process.env;
 

@@ -1,9 +1,9 @@
 import axios from 'axios';
 import { useQuery } from '@tanstack/react-query';
-import { API_URI } from '../constants';
+// import { API_URI } from '../constants';
 
-const fetchFoodDetail = (id) => async () => {
-  const response = await axios.get(`${API_URI.FOODLIST}/${id}`);
+const fetchFoodDetail = () => async () => {
+  const response = await axios.get('http://localhost:8080/store');
   return response;
 };
 

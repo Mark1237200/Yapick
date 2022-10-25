@@ -31,7 +31,7 @@ function FoodTrucks() {
   useEffect(() => {
     axios.get('http://localhost:8080/store').then((res) => {
       setTruck(res.data[0].data);
-      console.log(res.data[0].data);
+      // console.log(res.data[0].data);
     });
   }, []);
 
