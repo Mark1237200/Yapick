@@ -1,0 +1,40 @@
+{
+  "store": [
+    {
+      "data": {
+        "storeId": 1,
+        "storePhone": 12345678912,
+        "storeNumber": 37127,
+        "storeStatus": "OPEN",
+        "storeName": "맛집",
+        "storeContent": "맛집입니다",
+        "storeImage": null,
+        "storeType": "korean",
+        "storeTime": "24hr",
+        "storeWaittime": "15분",
+        "storeAddress": "강남",
+        "storePayment": "현금",
+        "storeTag": "맛집",
+        "totalReview": 20,
+        "totalGrade": 5,
+        "totalComment": 10,
+        "totalMenu": 10
+      }
+    }
+  ],
+  "menus": [
+    {
+      "storeId": 1,
+      "storeMenu": [
+        {
+          "menuId": 1,
+          "name": "수박",
+          "price": 2000,
+          "image": null,
+          "content": "여름수박"
+        }
+      ],
+      "total_menu": 20
+    }
+  ]
+}
